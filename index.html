@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack A1</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="home">
+        <h1>Welcome to Full Stack A1</h1>
+        <p>This is a simple website made in HTML CSS</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This Design is a part of the Assignment</p>
+    </section>
+
+    <section>
+        <h1 style="text-align: left;color:black ;">My Table</h1>
+        <table class="mytable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sher Jan</td>
+                    <td>212126@students.au.edu.pk</td>
+                </tr>
+         
+            </tbody>
+        </table>
+
+
+
+        <!-- Form -->
+
+        <form class="form-head">
+            <h1 style="text-align: left;color:burlywood ; text-decoration: solid;">Form Submission</h1>
+            <label class="form-label" for="name">Name</label>
+            <input class="form-input" type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label class="form-label" for="email">Email</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label class="form-label" for="password">Password</label>
+            <input class="form-input" type="password" id="password" name="password" placeholder="Enter your password">
+
+            <input class="form-button" type="submit" value="Submit">
+        </form>
+    </section>
+    <section class="content">
+        <div class="image-div">
+            <img src="html-structure.png" alt="">
+        </div>
+        <div class="data">
+            <p>HTML is the standard markup language for creating web pages and web applications. It defines the
+                structure and layout of a web document by using a variety of tags and attributes. </p>
+            <ul>
+
+
+                <li class="content-list"><span class="content-title"> DOCTYPE html</span>Declares the document type and
+                    version of HTML being used.</li>
+                <li class="content-list"><span class="content-title">html </span>The root element of the HTML document.
+                </li>
+                <li class="content-list"><span class="content-title">head </span>Contains meta-information about the
+                    document, such as the character encoding, viewport settings, and title.</li>
+                <li class="content-list"><span class="content-title"> title</span>Sets the title of the document, which
+                    appears in the browser's title bar or tab.</li>
+                <li class="content-list"><span class="content-title"> body </span>Contains the content of the document
+                    that is displayed in the browser window.</li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <section class="content">
+        <div class="image-div">
+            <img src="mouse-element.jpeg" alt="">
+        </div>
+        <div class="data">
+
+            <ul class="content-div">
+
+
+                <li class="content-list"><span class="content-title">p <br></span>This is a paragraph element used to
+                    represent text content. It's commonly used for displaying blocks of text on a webpage.</li>
+                <li class="content-list"><span class="content-title">a <br></span>This is a link element used to create
+                    hyperlinks. It allows users to navigate to another webpage when clicked. Attributes such as href
+                    define the destination URL, and target="_blank" opens the link in a new tab.</li>
+                <li class="content-list"><span class="content-title">table </span> <br>table,tr, th, and td These are
+                    table elements used to create tabular data. "table" defines the table, "tr" defines table rows, "th"
+                    defines table headers, and "td" defines table cells. They provide a structured way to display data
+                    in rows and columns.</li>
+                <li class="content-list"><span class="content-title">img </span><br>Contains the content of the document
+                    that is displayed in the browser window.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="hyperlink-section">
+        This Image acts as Hyperlink to Air University
+        <a href="https://www.au.edu.pk/" target="_blank"><img src="air-uni.png" width="300px" height="300px"
+                alt="Loading.."></a>
+    </section>
+
+    <header>
+
+        <h2 style="text-align: left; color: black;">External CSS vs Inline Styling</h2>
+    </header>
+
+    <section class="content2">
+        <article>
+            <h3>Introduction</h3>
+            <p>Styling is the brushstroke that adds vibrancy and personality to the canvas of web design...</p>
+        </article>
+
+        <article>
+            <h3>External CSS</h3>
+            <p>External CSS refers to the practice of defining styles in a separate .css file...</p>
+            <blockquote>
+                <p>"Consistency is key to building a strong brand. External CSS ensures uniform styling across multiple
+                    pages, simplifying maintenance and updates."</p>
+            </blockquote>
+            <!-- Add more points and quotations as needed -->
+        </article>
+
+        <article>
+            <h3>Inline Styling</h3>
+            <p>Inline styling involves applying styles directly within HTML tags using the 'style' attribute...</p>
+            <blockquote>
+                <p>"Inline styling provides immediate control over individual elements, simplifying quick adjustments
+                    and prototyping."</p>
+            </blockquote>
+            <!-- Add more points and quotations as needed -->
+        </article>
+
+        <article>
+            <h3>Conclusion</h3>
+            <p>In the eternal debate of external CSS versus inline styling, there's no one-size-fits-all solution...</p>
+        </article>
+    </section>
+    <section>
+
+        <table>
+            <tr style="color: black;">
+                <th>Element</th>
+                <th>Description</th>
+                <th>Functionality</th>
+            </tr>
+            <tr>
+                <td>input</td>
+                <td>A generic input control with various types available</td>
+                <td>Supports various input types such as text, password, email, number, date, checkbox, radio button,
+                    file upload, etc.</td>
+            </tr>
+            <tr>
+                <td>textarea</td>
+                <td>A multi-line text input control</td>
+                <td>Allows users to enter multiple lines of text, suitable for longer messages or comments.</td>
+            </tr>
+            <tr>
+                <td>select</td>
+                <td>A dropdown menu for selecting options</td>
+                <td>Presents users with a list of options to choose from, typically used for selecting one or more items
+                    from a list.</td>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td>A clickable button element</td>
+                <td>Triggers an action when clicked, such as form submission or executing JavaScript functions.</td>
+            </tr>
+            <tr>
+                <td>label</td>
+                <td>A label for an input element</td>
+                <td>Associates text labels with form controls, improving accessibility and usability.</td>
+            </tr>
+            <tr>
+                <td>fieldset</td>
+                <td>Groups related form elements together</td>
+                <td>Provides a visual grouping of related form controls, improving organization and user understanding.
+                </td>
+            </tr>
+            <tr>
+                <td>legend</td>
+                <td>Defines a caption for a fieldset element</td>
+                <td>Describes the purpose or title of the grouped form controls within a fieldset.</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>Sher Jan 212126</p>
+    </footer>
+</body>
+
+</html>
